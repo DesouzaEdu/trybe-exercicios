@@ -45,7 +45,12 @@
         document.querySelectorAll('.center-content p')[1].innerText = 'Me vejo como um desenvolvedor trabalhando para uma empresa estrangeira';
         document.getElementsByTagName('main')[0].style.backgroundColor = 'rgb(76,164,109)';
         document.getElementsByTagName('section')[0].style.backgroundColor = 'white';
-        document.getElementsByTagName('h1')[0].innerText = 'Exercício 5.1 - JavaScript'
+        document.getElementsByTagName('h1')[0].innerText = 'Exercício 5.1 - JavaScript';
+        let tagP =document.getElementsByTagName('p');
+        for (let i = 0; i<tagP.length; i += 1){
+            tagP[i].style.textTransform = 'uppercase';
+            console.log(tagP[i].innerText);
+        }
     </script>
   </body>
 </html>
