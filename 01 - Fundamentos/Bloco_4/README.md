@@ -8,4 +8,4 @@ Depois, aprendi como usar Arrays e loop For.
 No terceiro dia, exercitei lógica de programação.
 No último conteúdo, aprendi sobre o uso de objetos e funções.
 
-Tendo isso em mente aqui você encontrará os exercícios que desenvolvi para fixar os conhecimentos que adquiri ao longo desse bloco. Além disso também desenvolvi o projeto ao final de bloco para avaliar tudo o que havia aprendido, você pode acessa-lo [aqui](linkProjetoDoBloco).
+Tendo isso em mente aqui você encontrará os exercícios que desenvolvi para fixar os conhecimentos que adquiri ao longo desse bloco. Além disso também desenvolvi o projeto ao final de bloco para avaliar tudo o que havia aprendido, você pode acessa-lo [aqui](https://github.com/tryber/sd-018-a-project-playground-functions/pull/4).
