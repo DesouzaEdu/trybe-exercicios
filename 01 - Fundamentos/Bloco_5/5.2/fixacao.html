@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main id="paiDoPai">
+        <section id="pai">
+          <section id="primeiroFilho"></section>
+          <section id="elementoOndeVoceEsta">
+            <section id="primeiroFilhoDoFilho"></section>
+            <section id="segundoEUltimoFilhoDoFilho"></section>
+          </section>
+          Atenção!
+          <section id="terceiroFilho"></section>
+          <section id="quartoEUltimoFilho"></section>
+        </section>
+      </main>
+      <script>
+          console.log(document.getElementById('elementoOndeVoceEsta'));
+          document.getElementById('elementoOndeVoceEsta').parentElement.style.backgroundColor = 'red';
+          primeiroFilhoDoFilho.innerText = 'pay';          
+          console.log(pai.firstElementChild);
+          console.log(elementoOndeVoceEsta.previousElementSibling);
+          console.log(elementoOndeVoceEsta.nextSibling);
+          console.log(elementoOndeVoceEsta.nextElementSibling);
+          console.log(pai.children[2]);
+          let newElement = document.createElement('section');
+          newElement.id = 'elementoOndeEuEstarei';
+          pai.appendChild(newElement);
+          let newElement2 = document.createElement('section');
+          newElement2.id = 'filhoOndeTo';
+          elementoOndeVoceEsta.appendChild(newElement2);
+          let newElement3 = document.createElement('section');
+          newElement3.id = 'primeiroFilhoDoFilhoDoFilho';
+          primeiroFilhoDoFilho.appendChild(newElement3);
+          console.log(newElement3.parentElement.parentElement.nextElementSiblingta);
+          primeiroFilho.remove();
+          primeiroiFilhoDoFilhoDoFilho.remove();
+          segundoEUltimoFilhoDoFilho.remove();
+          filhoOndeTo.remove();
+          terceiroFilho.remove();
+          quertoEUltimoFilho.remove();
+          elementoOndeEuEstarei.remove();          
+      </script>
+</body>
+</html>
