@@ -34,11 +34,11 @@ function createDaysOfTheWeek() {
   function holidays(stringFeriado) {
       let btnHoliday = document.createElement('button');
       btnHoliday.id = 'btn-holiday';
-      btnHoliday.innerText = 'Feriados';
+      btnHoliday.innerText = stringFeriado;
       let container = document.querySelector('.buttons-container');
       container.appendChild(btnHoliday);
   }
-  holidays();  
+  holidays('Feriado');  
 
   function btnHolidaysClick(){
     let btnHoliday = document.querySelector('#btn-holiday');
@@ -57,3 +57,42 @@ function createDaysOfTheWeek() {
     
   }
   btnHolidaysClick();
+
+  function fridays(stringFriday) {
+    let btnFriday = document.createElement('button');
+    btnFriday.id = 'btn-friday';
+    btnFriday.innerText = stringFriday;
+    let container = document.querySelector('.buttons-container');
+    container.appendChild(btnFriday);
+}
+fridays('Sextouu!');  
+
+function btnFridaysClick(arrayFrydays){
+    let btnFriday = document.querySelector('#btn-friday');
+    let fridays = document.getElementsByClassName('friday');
+    
+    btnFriday.addEventListener('click', function(){
+        for (let i = 0; i < fridays.length; i += 1) {
+            if (fridays[i].innerHTML == 'Chamaaa! '){
+                fridays[i].innerHTML = arrayFridays[i];
+            }    
+            else{
+                fridays[i].innerHTML = 'Chamaaa! ';
+            }  
+        }
+    })
+    
+  }
+  let arrayFridays = [ 4, 11, 18, 25 ];
+  btnFridaysClick(arrayFridays);
+  let days = document.querySelectorAll('#days li');
+  for(let i = 0; i < days.length; i += 1) {
+      days[i].addEventListener('mouseover',mouseOverDays);
+      days[i].addEventListener('mouseout',mouseOutDays);
+  }
+function mouseOverDays(event){
+    event.target.style.fontSize = '30px';
+}
+function mouseOutDays(event){
+    event.target.style.fontSize = '20px';
+}
