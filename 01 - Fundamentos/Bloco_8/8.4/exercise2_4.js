@@ -71,5 +71,14 @@ const reduceNames = () =>
 
 function averageAge() {
     const arrAge = books.map((actualBook) => actualBook.releaseYear - actualBook.author.birthYear);
-    console.log(arrAge.reduce((acc,curr) => (acc + curr))/arrAge.length);  
+    arrAge.reduce((acc,curr) => (acc + curr))/arrAge.length;  
+}
+
+function longestNamedBook() {
+  books.reduce((acc, actual) => {
+    if(acc.name.length < actual.name.length) {
+      return actual;
+    }
+    return acc;    
+  })
 }
