@@ -1,6 +1,5 @@
-# BLOCO 4 - HTML e CSS: Forms, Flexbox e Responsivo
+# FUNDAMENTOS DO DESENVOLVIMENTO WEB
 
-Esse bloco pertence ao módulo de `Front-end` do curso da [Trybe](https://www.betrybe.com/).
-Nesse bloco fui apresentado ao React que é uma das bibliotecas JavaScript de criação de interfaces mais utilizadas no mundo. Ela foi criada e é mantida pelo próprio Facebook
+Nesse módulo aprendi sobre o uso do React e me tornei capaz ded criar aplicações completas de front-ent que se conectam a APIs utilizando a biblioteca React.
 
-Tendo isso em mente aqui você encontrará os exercícios que desenvolvi para fixar os conhecimentos que adquiri ao longo desse bloco. Além disso também desenvolvi o projeto ao final de bloco para avaliar tudo o que havia aprendido, você pode acessa-lo [aqui](link aqui).
+Tendo isso em mente, esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo do módulo de `Front-end` do curso da [Trybe](https://www.betrybe.com/).
