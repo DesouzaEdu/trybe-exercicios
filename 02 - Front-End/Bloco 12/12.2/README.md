@@ -11,4 +11,4 @@ Nesse dia, adquiri as seguintes capacidades:
 Fiz 2 projetos para fixação desses aprendizados:
 
 * O primeiro deles é possível ser acessado [aqui](https://github.com/DesouzaEdu/comprehension-exercises-router)
-* O segundo deles, uma pokedex navegável [aqui](https://github.com/DesouzaEdu/comprehension-exercises-router)
+* O segundo deles, uma pokedex navegável [aqui](https://github.com/DesouzaEdu/exercise-pokedex-router)
